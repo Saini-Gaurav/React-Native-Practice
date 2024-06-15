@@ -17,6 +17,7 @@ import ResponsiveLayout from "./practice/ResponsiveLayout";
 import TouchableHighlightButton from "./practice/TouchableHighlightButton";
 import RadioButton from "./practice/RadioButton";
 import ActivityIndicatorScreen from "./practice/ActivityIndicatorScreen";
+import ModalScreen from "./practice/ModalScreen";
 
 // const Stack = createNativeStackNavigator();
 
@@ -41,7 +42,8 @@ export default function App() {
       // <ResponsiveLayout />
       // <TouchableHighlightButton />
       // <RadioButton />
-      <ActivityIndicatorScreen />
+      // <ActivityIndicatorScreen />
+      <ModalScreen />
 
   );
 }
