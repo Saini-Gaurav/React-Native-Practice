@@ -18,6 +18,7 @@ import TouchableHighlightButton from "./practice/TouchableHighlightButton";
 import RadioButton from "./practice/RadioButton";
 import ActivityIndicatorScreen from "./practice/ActivityIndicatorScreen";
 import ModalScreen from "./practice/ModalScreen";
+import PressableScreen from "./practice/PressableScreen";
 
 // const Stack = createNativeStackNavigator();
 
@@ -43,7 +44,8 @@ export default function App() {
       // <TouchableHighlightButton />
       // <RadioButton />
       // <ActivityIndicatorScreen />
-      <ModalScreen />
+      // <ModalScreen />
+      <PressableScreen />
 
   );
 }
