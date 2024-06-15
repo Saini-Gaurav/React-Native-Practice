@@ -16,6 +16,7 @@ import Section from "./practice/Section";
 import ResponsiveLayout from "./practice/ResponsiveLayout";
 import TouchableHighlightButton from "./practice/TouchableHighlightButton";
 import RadioButton from "./practice/RadioButton";
+import ActivityIndicatorScreen from "./practice/ActivityIndicatorScreen";
 
 // const Stack = createNativeStackNavigator();
 
@@ -39,7 +40,8 @@ export default function App() {
       // <Section />
       // <ResponsiveLayout />
       // <TouchableHighlightButton />
-      <RadioButton />
+      // <RadioButton />
+      <ActivityIndicatorScreen />
 
   );
 }
