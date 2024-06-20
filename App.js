@@ -19,6 +19,13 @@ import RadioButton from "./practice/RadioButton";
 import ActivityIndicatorScreen from "./practice/ActivityIndicatorScreen";
 import ModalScreen from "./practice/ModalScreen";
 import PressableScreen from "./practice/PressableScreen";
+import SettingsScreen from "./components/SettingsScreen";
+import ProfileScreen from "./components/ProfileScreen";
+import About from "./components/About";
+import DriverIncomeScreen from "./components/DriverIncomeScreen";
+import CarsScreen from "./components/CarsScreen";
+// import ReferralScreen from "./components/ReferralScreen";
+import StatusBarScreen from "./practice/StatusBarScreen";
 
 // const Stack = createNativeStackNavigator();
 
@@ -45,7 +52,16 @@ export default function App() {
       // <RadioButton />
       // <ActivityIndicatorScreen />
       // <ModalScreen />
-      <PressableScreen />
+      // <PressableScreen />
+      // <SettingsScreen />
+      // <ProfileScreen />
+      // <About />
+      // <DriverIncomeScreen />
+      // <CarsScreen />
+      // <MainNaivigator />
+      // <ReferralScreen />
+      <StatusBarScreen />
+  
 
   );
 }

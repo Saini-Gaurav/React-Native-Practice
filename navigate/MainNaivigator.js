@@ -6,6 +6,9 @@ import CreateProfileScreen from "../components/CreateProfileScreen";
 import SeekhoScreen from "../components/SeekhoScreen";
 import AppSeekhoScreen from "../components/AppSeekhoScreen";
 import VideoScreen from "../components/VideoScreen";
+import SettingsScreen from "../components/SettingsScreen";
+import ProfileScreen from "../components/ProfileScreen";
+import CarsScreen from "../components/CarsScreen";
 
 const Stack = createStackNavigator();
 
@@ -13,41 +16,43 @@ const MainNavigator = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="SkillScreen"
+        initialRouteName="Car Screen"
         screenOptions={{
           headerStyle: {
-            backgroundColor: "#EFEFF9",
-            height: 100,
+            // backgroundColor: "#EFEFF9",
+            height: 90,
           },
           headerTitleAlign: "center",
           headerTintColor: "#000",
+          headerMode: "screen",
           headerTitleStyle: {
             fontWeight: "bold",
-            fontSize: 24,
+            fontSize: 18,
           },
         }}
       >
-        <Stack.Screen
-          name="SkillScreen"
-          component={SkillScreen}
+        {/* <Stack.Screen
+          name="Settings"
+          component={SettingsScreen}
           options={{
-            title: "Skills",
+            title: "Settings",
           }}
-        />
-        <Stack.Screen
-          name="CreateProfileScreen"
-          component={CreateProfileScreen}
+        /> */}
+        {/* <Stack.Screen
+          name="Profile"
+          component={ProfileScreen}
           options={{
-            title: "Create Profile",
+            title: "Profile Settings",
           }}
-        />
-        <Stack.Screen name="Seekho" component={SeekhoScreen} />
+        /> */}
+        <Stack.Screen name="Car Screen" component={CarsScreen} />
+        {/* <Stack.Screen name="Seekho" component={SeekhoScreen} />
         <Stack.Screen name="Seekho App" component={AppSeekhoScreen} />
         <Stack.Screen
           name="Vedio"
           component={VideoScreen}
           options={{ headerShown: false }}
-        />
+        /> */}
       </Stack.Navigator>
     </NavigationContainer>
   );
