@@ -26,6 +26,7 @@ import DriverIncomeScreen from "./components/DriverIncomeScreen";
 import CarsScreen from "./components/CarsScreen";
 // import ReferralScreen from "./components/ReferralScreen";
 import StatusBarScreen from "./practice/StatusBarScreen";
+import PlatformScreen from "./practice/PlatformScreen";
 
 // const Stack = createNativeStackNavigator();
 
@@ -60,7 +61,8 @@ export default function App() {
       // <CarsScreen />
       // <MainNaivigator />
       // <ReferralScreen />
-      <StatusBarScreen />
+      // <StatusBarScreen />
+      <PlatformScreen />
   
 
   );
