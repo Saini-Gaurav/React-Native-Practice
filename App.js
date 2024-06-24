@@ -27,6 +27,7 @@ import CarsScreen from "./components/CarsScreen";
 // import ReferralScreen from "./components/ReferralScreen";
 import StatusBarScreen from "./practice/StatusBarScreen";
 import PlatformScreen from "./practice/PlatformScreen";
+import ModalPractice from "./practice/ModalPractice";
 
 // const Stack = createNativeStackNavigator();
 
@@ -62,7 +63,8 @@ export default function App() {
       // <MainNaivigator />
       // <ReferralScreen />
       // <StatusBarScreen />
-      <PlatformScreen />
+      // <PlatformScreen />
+      <ModalPractice />
   
 
   );
